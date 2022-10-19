@@ -63,24 +63,25 @@ const point = (n: number) => {
 };
 point(3);
 
-//An aray that contain a basket of fruits
+//An aray that contain a basket of fruits and the computer will randomly serve three fruit to you from the basket
 
-// let basket: string[] = [
-//   "Apple",
-//   "Pawpaw",
-//   "Orange",
-//   "Grape",
-//   "Banana",
-//   "Pine-apple",
-// ];
-// //to serve in a tray
-// let serve: string[] = [];
+let basket: string[] = [
+  "Apple",
+  "Pawpaw",
+  "Orange",
+  "Grape",
+  "Banana",
+  "Pine-apple",
+];
+//to serve in a tray
+let serve: string[] = [];
 
-// // let value: number = Math.floor(Math.random() * basket.length);
-// // console.log(basket[value]);
-// //to pick randomly
-// for (let i = 1; i <= 3; i++) {
-//   let value: number = Math.floor(Math.random() * basket.length);
-//   serve.push(basket[value]);
-// }
-// console.log(serve)
+// let value: number = Math.floor(Math.random() * basket.length);
+// console.log(basket[value]);
+
+//to pick randomly
+for (let i = 1; i <= 3; i++) {
+  let value: number = Math.floor(Math.random() * basket.length);
+  serve.push(basket[value]);
+}
+console.log(serve);

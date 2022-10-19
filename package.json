@@ -1,0 +1,20 @@
+{
+  "name": "algorithim_and_datastructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "predictor.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn --transpile-only ./pratice.ts",
+    "dev": "nodemon start.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.8.5",
+    "prompt-sync": "^4.2.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
